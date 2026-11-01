@@ -1,0 +1,31 @@
+# REA Local Workspace & MCP Config (Do not push to public repo)
+node_modules/
+package.json
+package-lock.json
+REA_SETUP_GUIDE.md
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python cache & virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS artifacts
+Thumbs.db
+Desktop.ini
+.DS_Store
